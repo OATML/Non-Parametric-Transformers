@@ -2,36 +2,36 @@ name: npt
 channels:
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=main
-  - _openmp_mutex=5.1=1_gnu
-  - blas=1.0=mkl
-  - ca-certificates=2024.3.11=h06a4308_0
-  - cudatoolkit=10.1.243=h6bb024c_0
-  - intel-openmp=2023.1.0=hdb19cb5_46306
-  - ld_impl_linux-64=2.38=h1181459_1
-  - libffi=3.4.4=h6a678d5_0
-  - libgcc-ng=11.2.0=h1234567_1
-  - libgomp=11.2.0=h1234567_1
-  - libstdcxx-ng=11.2.0=h1234567_1
-  - libuv=1.44.2=h5eee18b_0
-  - mkl=2023.1.0=h213fc3f_46344
-  - mkl-service=2.4.0=py38h5eee18b_1
-  - mkl_fft=1.3.8=py38h5eee18b_0
-  - mkl_random=1.2.4=py38hdb19cb5_0
-  - ncurses=6.4=h6a678d5_0
-  - ninja=1.10.2=h06a4308_5
-  - ninja-base=1.10.2=hd09550d_5
-  - openssl=3.0.13=h7f8727e_0
-  - python=3.8.19=h955ad1f_0
-  - readline=8.2=h5eee18b_0
-  - setuptools=68.2.2=py38h06a4308_0
-  - sqlite=3.41.2=h5eee18b_0
-  - tbb=2021.8.0=hdb19cb5_0
-  - tk=8.6.12=h1ccaba5_0
-  - typing_extensions=4.9.0=py38h06a4308_1
-  - wheel=0.41.2=py38h06a4308_0
-  - xz=5.4.6=h5eee18b_0
-  - zlib=1.2.13=h5eee18b_0
+  - _libgcc_mutex=0.1
+  - _openmp_mutex=5.1
+  - blas=1.0
+  - ca-certificates=2024.3.11
+  - cudatoolkit=10.1.243
+  - intel-openmp=2023.1.0
+  - ld_impl_linux-64=2.38
+  - libffi=3.4.4
+  - libgcc-ng=11.2.0
+  - libgomp=11.2.0
+  - libstdcxx-ng=11.2.0
+  - libuv=1.44.2
+  - mkl=2023.1.0
+  - mkl-service=2.4.0
+  - mkl_fft=1.3.8
+  - mkl_random=1.2.4
+  - ncurses=6.4
+  - ninja=1.10.2
+  - ninja-base=1.10.2
+  - openssl=3.0.13
+  - python=3.8.19
+  - readline=8.2
+  - setuptools=68.2.2
+  - sqlite=3.41.2
+  - tbb=2021.8.0
+  - tk=8.6.12
+  - typing_extensions=4.9.0
+  - wheel=0.41.2
+  - xz=5.4.6
+  - zlib=1.2.13
   - pip:
       - absl-py==2.1.0
       - aiohttp==3.9.3
